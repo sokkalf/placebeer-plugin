@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "PlaceBeer",
+  "description": "Replaces images on page with placeholders from placebeer.com",
+  "version": "0.1",
+  "icons": { "128": "beermugs-128.png", "64": "beermugs-64.png", "48": "beermugs-48.png",
+             "32": "beermugs-32.png", "16": "beermugs-16.png"},
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "beermugs-32.png"
+  },
+  "permissions": [
+    "activeTab",
+    "https://placebeer.com/"
+  ]
+}
