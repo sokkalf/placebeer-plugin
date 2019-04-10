@@ -4,6 +4,7 @@
   "name": "PlaceBeer",
   "description": "Replaces images on page with placeholders from placebeer.com",
   "version": "0.1",
+  "content_security_policy": "script-src 'self' https://placebeer.com; object-src 'self' https://placebeer.com;",
   "icons": { "128": "images/beermugs-128.png", "64": "images/beermugs-64.png", "48": "images/beermugs-48.png",
              "32": "images/beermugs-32.png", "16": "images/beermugs-16.png"},
 
